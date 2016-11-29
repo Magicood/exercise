@@ -1,0 +1,171 @@
+    body{
+        margin: 0;
+        padding:0;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .logo-continer{
+        height:150px;
+        align-content: center;
+    }
+    .logo-continer .inner{
+        width: 1000px;
+        height: 100%;
+        margin:0 auto;
+    }
+    .navgator{
+        width: 1000px;
+        height: 100%;
+        background-color: blueviolet;
+        float: left;
+    }
+    .navgator .inner{
+        margin: 0 auto;
+        color: #f00;
+        float: left;
+        font-size: 25px;
+        font-family: "微软雅黑";
+    }
+    .navgator .search-continer{
+        width: 300px;
+        height: 100%;
+        background-color:#ffffff;
+        border: 1px solid blueviolet;
+        margin: 0 auto;
+        float:left;
+    }
+    #search-move{
+        float: right;
+    }
+    .contest{
+        width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+        float: left;
+    }
+    .contest-hot{
+        height:100%;
+        float: left;
+        margin: 0 auto;
+    }
+    .contest-run{
+        height:100%;
+        margin-left: 300px;
+        float: left;
+
+    }
+    .contest-talk{
+        height:100%;
+        float:right;
+        margin: 0 auto;
+    }
+    .game{
+        border:8px solid #f00;
+        border-top:none;
+        border-right:none;
+    }
+    .talk{
+        border:8px solid #f00;
+        border-top:none;
+        border-right:none;
+    }
+    .radio{
+        width: 1000px;
+        height: 100%;
+        margin: 30px auto;
+        float: left;
+    }
+    .link{
+        width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+        float: left;
+    }
+    .row1{
+        margin: 10px 10px;
+        float: left;
+    }
+    .row2{
+        margin: 10px 10px;
+        float: left;
+}
+    .row3{
+        margin: 10px 10px;
+        float: left;
+}
+    .size{
+        width: 150px;
+        height: 100%;
+        margin: 10px 10px;
+    }
+    .text-row1{
+        font-size: 10px;
+        height: 100%;
+        width: 1000px;
+        margin: 5px;
+        float: left;
+    }
+    .text-row2{
+    font-size: 10px;
+    height: 100%;
+    width: 1000px;
+    margin: 5px;
+    float: left;
+}
+    .text-row3{
+    font-size: 10px;
+    height: 100%;
+    width: 1000px;
+    margin: 5px;
+    float: left;
+}
+    .button{
+        width: 1000px;
+        height: 100%;
+        margin: 20px 150px;
+        float: left;
+    }
+    .end{
+        width: 1000px;
+        height: 100%;
+        float: left;
+        background-color: #777777;
+    }
+    h3{
+        color: yellow;
+    }
+    .end1{
+        float: left;
+        color: white;
+        font-family: 楷体;
+    }
+    .end2{
+        height:100%;
+        margin-left: 200px;
+        float: left;
+        color: white;
+    }
+    .end2 input{
+        margin-top: 10px;
+        background-color: #ba5502;
+    }
+    .end2 p{
+        margin-left: 180px;
+    }
+    .end2-1{
+        float: right;
+        margin-top: -50px;
+    }
+    .end3{
+        height:100%;;
+        float: right;
+        color: white;
+    }
+    .end3 p{
+        margin-left:180px;
+    }
+    .end3 input{
+        margin-top: 20px;
+        background-color: #ba5502;
+    }

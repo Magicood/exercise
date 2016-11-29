@@ -1,0 +1,113 @@
+<html>
+<head>
+	<title>我的一个新网页</title>
+	<style type="text/css">
+		body {
+			background-image:url(../images/img-test1.jpg);
+		}
+		.aaa{
+			font-size:20px;
+			font-family:"微软雅黑";
+			color:red;
+		}
+
+	</style>
+</head>
+<body>
+<h1>HTML</h1>
+	<p>
+		&nbsp;&nbsp;超文本标记语言，<a href="http//www.lalal.com" />标准通用标记语言</a>的下一个应用。<br/>
+	</p>
+		<img src = "../images/html.jpg" alt="" width="150px"><br/>
+	<p>	“超文本”就是指页面内容可以包含图片、链接，甚至音乐、程序等非文字元素。
+	</p>
+	<p>
+		超文本标记语言的结构包括“头”部分（英语 ：head）、和”主体“部分（英语 ：body），其中”头“部分提供关于网页的信息，”主体“部分提供网页的具体内容。
+	</p>
+<h2>详细介绍</h2>
+
+<h3>由来</h3>
+	<p id="ppp">
+		&nbsp;&nbsp;
+		万维网上的一个超媒体文档称之为一个页面（外语：page）。作为一个组织或者个人在万维网上放置开始点的页面称为主页（外语：Homepage）或首页，<br/>
+		
+		<img src="../images/www.jpg" alt="" width="150px">
+	</p>
+<h2>语言特点</h2>
+	<hr/>
+	<p>
+		&nbsp;&nbsp;
+		 超级文本标记语言文档制作不是很复杂，但功能强大，支持不同数据格式的文件镶入，这也是万维网（WWW）盛行的原因之一，其主要特点如下：
+	</p>
+	<ol>
+		<li>简易性：超级文本标记语言版本升级采用超集方式，从而更加灵活方便。
+		</li>
+		<li>可扩展性：超级文本标记语言的广泛应用带来了加强功能，增加标识符等要求，超级文本标记语言采取子类元素的方式，为系统扩展带来保证。
+		</li>
+		<li>平台无关性：虽然个人计算机大行其道，但使用MAC等其他机器的大有人在，超级文本标记语言可以使用在广泛的平台上，这也是万维网（WWW）盛行的另一个原因。
+		</li>
+		<li>通用性：另外，HTML是网络的通用语言,一种简单、通用的全置标记语言。它允许网页制作人建立文本与图片相结合的复杂页面，这些页面可以被网上任何其他人浏览到，无论使用的是什么类型的电脑或浏览器。
+		</li>
+	</ol>
+<h2>书写方式</h2>
+	<hr/>
+<h3>编辑</h3>
+	<p>
+		&nbsp;&nbsp;
+		它其实是文本，它其实是浏览器的解释，它的编辑器大体可以分为三种，
+	</p>
+	<ul>
+		<li>
+			一、基本文本、文档编辑软件，使用微软自带的记事本或写字板都可以编写，当然，如果你用WPS来编写，也可以。不过存盘时请使用.htm或.html作为扩展名，这样就方便浏览器认出直接解释执行了。
+		</li>
+		<li>
+			二、半所见即所得软件，<br/>
+			如：FCK-Editer、E-webediter等在线网页编辑器；<br/>
+			尤其推荐：Sublime Text代码编辑器（由Jon Skinner开发，Sublime Text 2收费但可以无限期试用）。<br/>
+		</li>
+		<li>
+			三、所见即所得软件，使用最广泛的编辑器，完全可以一点不懂HTML的知识就可以做出网页，如：<br/>
+			AMAYA（出品单位：万维网联盟）；<br/>
+			FRONTPAGE（出品单位：微软）；<br/>
+			Dreamweaver（出品单位：Adobe）。
+		</li>
+		<li>
+			四、所见即所得软件与半所见即所得的软件相比，开发速度更快，效率更高，且直观的表现更强。任何地方进行修改只需要刷新即可显示。缺点是生成的代码结构复杂，不利于大型网站的多人协作和精准定位等高级功能的实现。
+		</li>
+	</ul>
+<h2>用户信息登记</h2>
+	<hr/>
+	<form>
+		<label class="aaa">账&nbsp;&nbsp;号</label>:
+			<input type="text" name="username" /><br/>
+		<label class="aaa">密&nbsp;&nbsp;码</label>:
+			<input type="password" name="userpassword"/><br/>
+		<label class="aaa">邮&nbsp;&nbsp;箱</label>:
+			<input type ="email" neme="email"/><br/>
+		<label class="aaa">手&nbsp;&nbsp;机</label>:
+			<input type = "text" name="phonenumber"/><br/>
+		<label class="aaa">地&nbsp;&nbsp;址</label>:
+			<select>
+				<option>四川</option>
+				<option>湖南</option>
+				<option>河南</option>
+				<option>广东</option>
+				<option selected>北京</option>
+				<option>新疆</option>
+			</select>
+		<label class="aaa">性&nbsp;&nbsp;别</label>:
+			<input type="radio" checked name ="gender"/>男
+			<input type="radio" name="gender"/>女<br/>
+		<label class="aaa">爱&nbsp;&nbsp;好</label>:
+			<input type="checkbox" name="favorite"/>游泳
+			<input type="checkbox" name="favorite"/>足球
+			<input type="checkbox" name="favorite"/>篮球
+			<input type="checkbox" name="favorite"/>编程
+			<input type="checkbox" name="favorite"/>游戏
+			<input type="checkbox" checked name="favorite"/>看书
+			<input type="checkbox" name="favorite"/>音乐<br/>
+		<input type="submit" name="submit" value="提交"/>
+		<input type="button" name="cancel"/ value="取消">
+	</form>
+</body>
+</html>

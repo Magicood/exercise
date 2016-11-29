@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学员登记</title>
+    <style>
+        #focusButtom{
+        background: none;
+        border: none;
+        }
+        #focusButtom .up{
+        width: 400px;
+        height:15px;
+        }
+        #focusButtom .down{
+        width: 400px;
+        height: 100px;
+        background-color: #00ff00;
+        visibility: hidden;
+        }
+        #focusButtom:focus{
+        outline:none;
+        }
+        #focusButtom:focus .down{
+        visibility: visible;
+        }
+        #name{
+            background-color: aquamarine;
+        }
+        [for=sex]{
+            color: #0f0; 
+            }
+         span{
+             color: red;
+         }
+        #email{
+            background-color: blueviolet;
+        }
+        [for=A] {
+            font-family: fantasy;
+            font-size: 40px;
+        }
+        #A{
+            width: 400px;
+            height:20px;
+        }
+        h3{
+            font-size: 30px;
+            font-style:italic;
+            font-weight:normal;
+            color:blue;
+        }
+        .B{
+            font-family: Arial;
+            font-size: 20px;
+        }
+        body{
+            font-size: 20px;
+            font-family: "微软雅黑 Light",serif;
+            background-color: #777777;
+        }
+    </style>
+</head>
+<body>
+<h1>学员信息登记</h1>
+<div>
+    <div>
+        <label for="name">姓名</label>:<input type="text" id="name" name="name"/><br/>
+        <label for="sex">性别</label>:<input type="radio" name="gender" id="sex"/>女
+        <input type="radio" name="gender"/>男<br/>
+        <label for="favorite">爱好</label>:<input type="checkbox" name="favorite" id="favorite"/>篮球
+        <input type="checkbox" name="favorite"/>刷微博
+        <input type="checkbox" name="favorite"/>购物
+        <input type="checkbox" name="favorite"/><span>总结知识结构技能</span>
+        <br/>
+
+        <label for="touxiang">头像:</label><br/>
+        <img src="../images/img-test1.jpg" alt="" width="200" height="150" id="touxiang"><br/>
+        <label for="email">邮箱</label>:<input type="email" id="email" name="email"/><br/>
+        <label for="where">所在地</label>:
+        <select name="where" id="where">
+            <option>四川</option>
+            <option>广东</option>
+            <option>北京</option>
+        </select>
+        <select>
+            <option>成都市</option>
+            <option>广州市</option>
+            <option>北京市</option>
+        </select>
+        <select>
+            <option>双流</option>
+            <option>花都</option>
+            <option>朝阳</option>
+        </select>
+        <select>
+            <option>某街道</option>
+            <option>某街道</option>
+            <option>某街道</option>
+        </select><br/>
+        <label for="A">详细地址</label>:<input type="text" id="A"/><br/>
+    </div>
+    <div>
+        <h3>考过的证书</h3>
+        <ul class="B" style="margin-left: 80px">
+            <li>计算机等级证</li>
+            <li>好人证</li>
+            <li>学位证</li>
+        </ul>
+        <p>其他</p>
+        <ol start="5" type="I" class="B" style=" margin-left: 80px">
+            <li>大学英语四级证</li>
+            <li>证书</li>
+            <li>优秀团员</li>
+            <li>五号学生证</li>
+        </ol>
+        <label for="score">数学成绩</label>:<input type="number" id="score"/><br/>
+        <label for="range">空气湿度</label>:<input type="range" id="range"/>
+        <img src="../images/buhuo.jpg" alt="" width="150px" height="120">
+    </div>
+    <div>
+        <button id="focusButtom">
+            <div class="up">
+                点我 啊！
+            </div>
+            <div class="down"></div>
+        </button>
+    </div>
+    <input type="submit" name="submit" value="提交"/>
+    <input type="button" name="cancel" value="取消"/>
+</div>
+</body>
+</html>
