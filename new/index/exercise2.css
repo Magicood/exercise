@@ -9,7 +9,6 @@ body{
     width: 1900px;
     height: auto;
     margin: 0 auto;
-    text-align: center;
     float: left;
 }
 .navigator .logo{
@@ -130,7 +129,7 @@ body{
     margin: 0 auto;
     float: left;
 }
-.banner img{
+.banner>img{
     width: 889px;
     height: 554px;
     display: block;
@@ -170,21 +169,38 @@ body{
 }
 .line-2{
     width:auto;
-    height: auto;
-    font-family: 微软雅黑;
+    height: 107px;
+    font-family: Arial;
     font-size: 18px;
-    margin: 30px 40px;
+    margin: 0 30px;
+    border-bottom: dashed;
+    border-bottom-color: #EBEBEB;
+    padding-top: 20px;
 }
 .line-2 label{
-    border-right-color: #F4F4F4;
-    padding: 0 23px 0 23px;
-    border-right: solid;
     display: block;
+    padding-left: 21px;
     float: left;
+    color: #222322;
+    border-right-color: #DDDDDD;
+    border-right-style: solid;
+    margin-bottom: 10px;
+    padding-right: 10px;
 }
 .line-3{
-    width:auto;
-    height: auto;
+    width:100%;
+    height: 62px;
+    float: left;
+    padding-top: 24px;
+    padding-left: 40px;
+    font-family: Arial;
+    font-size: 18px;
+}
+.line-3>img{
+    width: 41px;
+    height: 23px;
+    display: block;
+    float: left;
 }
 .line-4{
     width:auto;
