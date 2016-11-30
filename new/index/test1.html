@@ -70,22 +70,175 @@
         .test1> a:hover::before, a:hover::after{
             position: absolute;
         }
+        .test2, .test3, .test4, .test5, .test6, .test7, .test8, .test9, .test10, .test11, .test12{
+            margin-left: 10px;
+        }
+        .test2{
+            margin-top: 100px;
+            width: 50px;
+            height: 50px;
+            border:1px #000 solid;
+            border-radius: 50px;
+            float: left;
+        }
+        .test3{
+            margin-top: 100px;
+            width: 100px;
+            height: 50px;
+            border:1px #000 solid;
+            border-radius: 20px;
+            float: left;
+        }
+        .test4{
+            margin-top: 100px;
+            width: 50px;
+            height: 50px;
+            border:1px #000 solid;
+            border-radius: 50px 10px 50px 10px;
+            float: left;
+        }
+        .test5{
+            margin-top: 100px;
+            width: 50px;
+            height: 50px;
+            border:1px #000 solid;
+            border-radius: 5px 50px 5px 50px;
+            float: left;
+        }
+        .test6{
+            margin-top: 100px;
+            width: 50px;
+            height: 50px;
+            border:1px #000 solid;
+            border-radius: 0 60px 50px 50px;
+            float: left;
+        }
+        .test7{
+            margin-top: 100px;
+            width: 50px;
+            height: 50px;
+            border:1px #000 solid;
+            border-radius: 40px 60px 0 15px;
+            float: left;
+        }
+        .test8{
+            margin-top: 100px;
+            width: 50px;
+            height: 50px;
+            border:1px #000 solid;
+            border-radius: 10px 18px 18px 12px;
+            float: left;
+        }
+        .test9{
+            margin-top: 100px;
+            width: 50px;
+            height: 50px;
+            border:1px #000 solid;
+            border-radius: 0 0 0 18px;
+            float: left;
+        }
+        .test10{
+            margin-top: 100px;
+            width: 50px;
+            height: 50px;
+            border:1px #000 solid;
+            border-radius: 0 0 0 8px;
+            float: left;
+        }
+        .test11{
+            margin-top: 100px;
+            width: 150px;
+            height: 150px;
+            border:1px #000 solid;
+            border-radius: 8px;
+            float: left;
+            box-shadow: 10px 10px 25px 8px #00f inset;
+        }
+        .test12{
+            margin-top: 100px;
+            width: 100px;
+            height: 100px;
+            border:1px #000 solid;
+            border-radius: 8px 15px 40px 60px;
+            float: left;
+            box-shadow: 10px 10px 25px 8px #f00;
+        }
+        .img{
+            width: 404px;
+            height: 262px;
+            /*border: 15px dashed transparent;*/
+            /*border-image-source: url(../images/test.png);*/
+            /*border-image-repeat: round;*/
+            /*border-image-slice: 50 50;*/
+            background: url(../images/img-test1.jpg ) content-box,url(../images/img-test3.png) border-box;
+            background-size: 258px 190px,404px 262px;
+            background-repeat: no-repeat;
+            border: dotted 20px rgba(0,0,0,0.5);
+            /*background-origin: border-box;*/
+            background-origin: content-box;
+            /*background-origin: padding-box;*/
+            float: left;
+            background-clip:border-box;
+        }
+        .text{
+            height: 1000px;
+            width: 800px;
+            background-color: #fff;
+            float: left;
+            text-shadow: 0 0 5px #f00;
+            /*letter-spacing: 20px;*/
+            border-radius: 5px;
+            word-wrap: break-word;
+            text-indent: 30px;
+            word-spacing: 2px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .text p{
+            white-space: pre;
+            font-family: bole;
+            font-size: 26px;
+        }
+        @font-face {
+            font-family: bole;
+            src: url(../fonts/伯乐自然萌体.ttf);
+        }
     </style>
 </head>
 <body>
-    <div class="test">
-        <a href="#">CONTENT</a>
-        <a href="#">CONTENT</a>
-        <a href="#">CONTENT</a>
-        <a href="#">CONTENT</a>
-        <a href="#">CONTENT</a>
-    </div>
-    <div class="test1">
-        <a href="#">CONTENT</a>
-        <a href="#">CONTENT</a>
-        <a href="#">CONTENT</a>
-        <a href="#">CONTENT</a>
-        <a href="#">CONTENT</a>
-    </div>
+    <!--<div class="test">-->
+        <!--<a href="#">CONTENT</a>-->
+        <!--<a href="#">CONTENT</a>-->
+        <!--<a href="#">CONTENT</a>-->
+        <!--<a href="#">CONTENT</a>-->
+        <!--<a href="#">CONTENT</a>-->
+    <!--</div>-->
+    <!--<div class="test1">-->
+        <!--<a href="#">CONTENT</a>-->
+        <!--<a href="#">CONTENT</a>-->
+        <!--<a href="#">CONTENT</a>-->
+        <!--<a href="#">CONTENT</a>-->
+        <!--<a href="#">CONTENT</a>-->
+    <!--</div>-->
+    <!--<div class="test2"></div>-->
+    <!--<div class="test3"></div>-->
+    <!--<div class="test4"></div>-->
+    <!--<div class="test5"></div>-->
+    <!--<div class="test6"></div>-->
+    <!--<div class="test7"></div>-->
+    <!--<div class="test8"></div>-->
+    <!--<div class="test9"></div>-->
+    <!--<div class="test10"></div>-->
+    <!--<div class="test11"></div>-->
+    <!--<div class="test12"></div>-->
+<!--<div class="img">-->
+<!--</div>-->
+<div class="text">你说哎本就是fdjlsjf klds hf kdsh fd sk lfad uslk dsji osfgi
+    dls ugfo dsufiod sufhiod usfiods ufop iasuf oas puf gi opsuo psdugiod fhg
+    kjsd fhugid shfjkh siouyre trhe wiyf uie rth khf uisd
+<p>复活甲佛辅导费哦if都是覅偶滴神发货地欧式风         格 更         富有松德股份hi父打死福建话个哦第斯</p>
+</div>
+
 </body>
 </html>
