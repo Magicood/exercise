@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .test{
+            width:100px;
+            height: 200px;
+        }
+        .test>a{
+            position: relative;
+            font-size: 32px;
+            text-decoration: none;
+            display: inline-block;
+            outline: none;
+            color: #000;
+            padding: 5px 10px;
+            margin-left: 20px;
+        }
+        .test> a:hover::before, a:hover::after{
+            position: absolute;
+        }
+        .test> a:hover::before{
+            content: "\5B";
+            left: -20px;
+        }
+        .test> a:hover::after{
+             content: "\5D";
+             right: -20px;
+         }
+        .test1{
+            width:100px;
+            height: 200px;
+            margin-top: 100px;
+        }
+        .test1>a{
+            position: relative;
+            font-size: 32px;
+            text-decoration: none;
+            display: inline-block;
+            outline: none;
+            color: #000;
+            padding: 5px 10px;
+            margin-left: 20px;
+        }
+        /*.test1>a:hover::before,*/
+        .test1>a:hover::after{
+            content: "";
+            display: block;
+            top: -15%;
+            left: -14%;
+            height: 120%;
+            width: 120%;
+            border-color: #333;
+            border-style: solid;
+            border-width: 3px;
+        }
+        .test1>a:hover::before{
+            content: "";
+            display: block;
+            top: -5%;
+            left: -5%;
+            height: 100%;
+            width: 100%;
+            border-color: #333;
+            border-style: solid;
+            border-width: 3px;
+        }
+        .test1> a:hover::before, a:hover::after{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="test">
+        <a href="#">CONTENT</a>
+        <a href="#">CONTENT</a>
+        <a href="#">CONTENT</a>
+        <a href="#">CONTENT</a>
+        <a href="#">CONTENT</a>
+    </div>
+    <div class="test1">
+        <a href="#">CONTENT</a>
+        <a href="#">CONTENT</a>
+        <a href="#">CONTENT</a>
+        <a href="#">CONTENT</a>
+        <a href="#">CONTENT</a>
+    </div>
+</body>
+</html>
