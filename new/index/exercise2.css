@@ -2,14 +2,16 @@
     box-sizing: border-box;
 }
 body{
+    width: 1900px;
     margin:0;
-    padding: 0;
+    background-color: #F1F2F3;
 }
 .navigator{
     width: 1900px;
     height: auto;
     margin: 0 auto;
     float: left;
+    background-color: #ffffff;
 }
 .navigator .logo{
     width: auto;
@@ -127,7 +129,7 @@ body{
     height: auto;
     background-color: #F1F2F3;
     margin: 0 auto;
-    float: left;
+    overflow: hidden;
 }
 .banner>img{
     width: 889px;
@@ -146,14 +148,6 @@ body{
     margin-top: 53px;
     margin-left: 26px;
     border: 1px solid #F1F2F3;
-}
-.hot-app{
-    width: 579px;
-    height: 158px;
-    background-color: #ffffff;
-    float: left;
-    margin-top: 29px;
-    margin-left: 26px;
 }
 .line-1{
     width: auto;
@@ -195,6 +189,11 @@ body{
     padding-left: 40px;
     font-family: Arial;
     font-size: 18px;
+    border-bottom: dashed;
+    border-bottom-color: #EBEBEB;
+}
+.line-3 span{
+    float: left;
 }
 .line-3>img{
     width: 41px;
@@ -203,9 +202,302 @@ body{
     float: left;
 }
 .line-4{
-    width:auto;
+    width:100%;
+    height: 62px;
+    float: left;
+    padding-top: 24px;
+    padding-left: 40px;
+    font-family: Arial;
+    font-size: 18px;
+    border-bottom: solid;
+    border-bottom-color: #EBEBEB;
+}
+.line-4 span{
+    float: left;
+}
+.line-4>img{
+    width: 41px;
+    height: 23px;
+    display: block;
+    float: left;
+}
+.line-5{
+    width:100%;
     height: auto;
-}.line-5{
-     width:auto;
-     height: auto;
- }
+    float: left;
+    padding-top: 15px;
+    padding-left: 40px;
+    font-family: Arial;
+    font-size: 18px;
+}
+.hot-app{
+    width: 579px;
+    height: 158px;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 29px;
+    margin-left: 26px;
+}
+.hot-app>img{
+    width: 106px;
+    height: 137px;
+    display: block;
+    margin-left: 102px;
+    margin-top: 26px;
+    float: left;
+}
+.aricle{
+    width: 229px;
+    height: 106px;
+    font-size: 18px;
+    font-family: Arial;
+    float: left;
+    margin-left: 40px;
+    margin-top: 19px;
+    color: #666;
+}
+.aricle h2{
+    font-size: 18px;
+    float: left;
+}
+.img-button h3{
+    width: 119px;
+    height: 17px;
+    float: left;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.img-button{
+    width: 230px;
+    height: 17px;
+    font-size: 16px;
+    float: left;
+}
+.img-button>img{
+    width: 110px;
+    height: 17px;
+    display: block;
+    float: left;
+    margin-top: -10px;
+}
+.aricle>input{
+    display: block;
+    width: 102px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #E84C3D;
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.banner~hr{
+    display: block;
+    margin-left: 200px;
+    width: 1500px;
+    overflow: hidden;
+}
+.album{
+    width: 1500px;
+    height: 4700px;
+    margin: 0 auto;
+    /*float: left;*/
+}
+.album-h{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 15px auto;
+}
+.album-h h2{
+    float: left;
+    width: 200px;
+}
+.album-h>input{
+    width: 98px;
+    height: 35px;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #22B4F6;
+    float: right;
+}
+.album-h>label{
+    width: auto;
+    height: 20px;
+    border-right: 2px;
+    border-right-color: #C9CAC7;
+    border-right-style: groove;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-right: 5px;
+    display: block;
+    float: right;
+    margin-right: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.album-h>label a{
+    text-decoration: none;
+    color: #000;
+}
+.gallery{
+    margin-top: 20px;
+    width: 100%;
+    height: 407px;
+    float: left;
+    margin-left: -24px;
+    margin-bottom: 20px;
+}
+.gallery-1{
+    height: 407px;
+    width: 279px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 21px;
+    margin-bottom: 20px;
+}
+.gallery-1>img{
+    display: block;
+    width: 279px;
+    height: 280px;
+    float: left;
+}
+.gallery-1 span{
+    font-weight: bold;
+    font-size: 18px;
+}
+.gallery-1 p{
+    font-size: 16px;
+    color: gray;
+}
+.gallery-col{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    column-count: 5;
+}
+.gallery-col-1{
+    width: 281px;
+    height: auto;
+    margin-bottom:10px;
+    float: left;
+    /*margin-right: 17px;*/
+}
+.gallery-col-1>img{
+    margin-bottom: 10px;
+}
+/*.album>input{*/
+    /*display: block;*/
+    /*margin-top: 100px;*/
+    /*font-size: 15px;*/
+    /*color: #ffffff;*/
+/*}*/
+.more{
+    width: 1500px;
+    height: 47px;
+    margin: 0 auto;
+}
+.more input{
+    display: block;
+    width: 146px;
+    height: 47px;
+    background-color: #22B4F6;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.footer{
+    width: 100%;
+    height: 338px;
+    background-color: #E1E2E3;
+    margin-top: 100px;
+    position: relative;
+}
+.footer-top{
+    height: 202px;
+    width: 1500px;
+    margin: 42px auto 0px auto;
+}
+.top1{
+    width: auto;
+    height: 100%;
+    font-size: 16px;
+    font-family: Calibri;
+    float: left;
+    padding: 0 43px;
+    border-left-style: solid;
+    border-left-color: #666666;
+    margin-top: 10px
+}
+.top1 ul{
+    list-style:none;
+    float: left;
+}
+.top1-ul li:first-child{
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.top1 ul:last-child{
+    margin-top: 65px;
+}
+.top1 ul li{
+    margin-bottom: 20px;
+}
+.top2{
+    width: auto;
+    height: 100%;
+    font-size: 16px;
+    font-family: Calibri;
+    float: left;
+    padding: 0 43px;
+    border-left-style: solid;
+    border-left-color: #666666;
+    margin-top: 10px
+}
+.top2 ul{
+    list-style:none;
+    float: left;
+}
+.top2 ul li{
+    margin-bottom: 20px;
+}
+.top2>span{
+    float: left;
+    display: block;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+.top3{
+    width: auto;
+    height: 100%;
+    font-size: 16px;
+    font-family: Calibri;
+    float: left;
+    padding: 0 43px;
+    border-left-style: solid;
+    border-left-color: #666666;
+    margin-top: 10px;
+    text-align: center;
+}
+.end{
+    width: auto;
+    height: 43px;
+    float: left;
+    margin: 30px auto;
+}
+.end span{
+    color: #666666;
+    font-family: Calibri;
+    margin-left: 515px;
+}
+.footer>img{
+    display: block;
+    right: 127px;
+    bottom: 38px;
+    position: absolute;
+}
